@@ -1,0 +1,759 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		6A62DCA02FD6401900767DC8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6A62DC8A2FD6401700767DC8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6A62DC912FD6401700767DC8;
+			remoteInfo = CatKey;
+		};
+		6A62DCAA2FD6401900767DC8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6A62DC8A2FD6401700767DC8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6A62DC912FD6401700767DC8;
+			remoteInfo = CatKey;
+		};
+		KB0000000000000000000001 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6A62DC8A2FD6401700767DC8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6A62DC912FD6401700767DC8;
+			remoteInfo = CatKey;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6A62DC922FD6401700767DC8 /* CatKey.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CatKey.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A62DC9F2FD6401900767DC8 /* CatKeyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CatKeyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A62DCA92FD6401900767DC8 /* CatKeyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CatKeyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		KB0000000000000000000002 /* CatKeyKeyboard.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = CatKeyKeyboard.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		6A62DC942FD6401700767DC8 /* CatKey */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = CatKey;
+			sourceTree = "<group>";
+		};
+		6A62DCA22FD6401900767DC8 /* CatKeyTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = CatKeyTests;
+			sourceTree = "<group>";
+		};
+		6A62DCAC2FD6401900767DC8 /* CatKeyUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = CatKeyUITests;
+			sourceTree = "<group>";
+		};
+		KB0000000000000000000003 /* CatKeyKeyboard */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = CatKeyKeyboard;
+			sourceTree = "<group>";
+		};
+		SHARED00000000000000001 /* CatKeyShared */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = CatKeyShared;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		6A62DC942FD6401700767DC8_X1 /* Exceptions for "CatKey" folder in "CatKey" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 6A62DC912FD6401700767DC8 /* CatKey */;
+		};
+		KB0000000000000000000003_X1 /* Exceptions for "CatKeyKeyboard" folder in "CatKeyKeyboard" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = KB0000000000000000000006 /* CatKeyKeyboard */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6A62DC8F2FD6401700767DC8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A62DC9C2FD6401900767DC8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A62DCA62FD6401900767DC8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		KB0000000000000000000004 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6A62DC892FD6401700767DC8 = {
+			isa = PBXGroup;
+			children = (
+				6A62DC942FD6401700767DC8 /* CatKey */,
+				KB0000000000000000000003 /* CatKeyKeyboard */,
+				SHARED00000000000000001 /* CatKeyShared */,
+				6A62DCA22FD6401900767DC8 /* CatKeyTests */,
+				6A62DCAC2FD6401900767DC8 /* CatKeyUITests */,
+				6A62DC932FD6401700767DC8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6A62DC932FD6401700767DC8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6A62DC922FD6401700767DC8 /* CatKey.app */,
+				KB0000000000000000000002 /* CatKeyKeyboard.appex */,
+				6A62DC9F2FD6401900767DC8 /* CatKeyTests.xctest */,
+				6A62DCA92FD6401900767DC8 /* CatKeyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6A62DC912FD6401700767DC8 /* CatKey */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6A62DCB32FD6401900767DC8 /* Build configuration list for PBXNativeTarget "CatKey" */;
+			buildPhases = (
+				6A62DC8E2FD6401700767DC8 /* Sources */,
+				6A62DC8F2FD6401700767DC8 /* Frameworks */,
+				6A62DC902FD6401700767DC8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				KB0000000000000000000005 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				6A62DC942FD6401700767DC8 /* CatKey */,
+				SHARED00000000000000001 /* CatKeyShared */,
+			);
+			fileSystemSynchronizedBuildFileExceptionSets = (
+				6A62DC942FD6401700767DC8_X1 /* Exceptions for "CatKey" folder in "CatKey" target */,
+			);
+			name = CatKey;
+			packageProductDependencies = (
+			);
+			productName = CatKey;
+			productReference = 6A62DC922FD6401700767DC8 /* CatKey.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6A62DC9E2FD6401900767DC8 /* CatKeyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6A62DCB62FD6401900767DC8 /* Build configuration list for PBXNativeTarget "CatKeyTests" */;
+			buildPhases = (
+				6A62DC9B2FD6401900767DC8 /* Sources */,
+				6A62DC9C2FD6401900767DC8 /* Frameworks */,
+				6A62DC9D2FD6401900767DC8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6A62DCA12FD6401900767DC8 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				6A62DCA22FD6401900767DC8 /* CatKeyTests */,
+			);
+			name = CatKeyTests;
+			packageProductDependencies = (
+			);
+			productName = CatKeyTests;
+			productReference = 6A62DC9F2FD6401900767DC8 /* CatKeyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6A62DCA82FD6401900767DC8 /* CatKeyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6A62DCB92FD6401900767DC8 /* Build configuration list for PBXNativeTarget "CatKeyUITests" */;
+			buildPhases = (
+				6A62DCA52FD6401900767DC8 /* Sources */,
+				6A62DCA62FD6401900767DC8 /* Frameworks */,
+				6A62DCA72FD6401900767DC8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6A62DCAB2FD6401900767DC8 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				6A62DCAC2FD6401900767DC8 /* CatKeyUITests */,
+			);
+			name = CatKeyUITests;
+			packageProductDependencies = (
+			);
+			productName = CatKeyUITests;
+			productReference = 6A62DCA92FD6401900767DC8 /* CatKeyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		KB0000000000000000000006 /* CatKeyKeyboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = KB0000000000000000000007 /* Build configuration list for PBXNativeTarget "CatKeyKeyboard" */;
+			buildPhases = (
+				KB0000000000000000000008 /* Sources */,
+				KB0000000000000000000004 /* Frameworks */,
+				KB0000000000000000000009 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				KB000000000000000000000A /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				KB0000000000000000000003 /* CatKeyKeyboard */,
+				SHARED00000000000000001 /* CatKeyShared */,
+			);
+			fileSystemSynchronizedBuildFileExceptionSets = (
+				KB0000000000000000000003_X1 /* Exceptions for "CatKeyKeyboard" folder in "CatKeyKeyboard" target */,
+			);
+			name = CatKeyKeyboard;
+			packageProductDependencies = (
+			);
+			productName = CatKeyKeyboard;
+			productReference = KB0000000000000000000002 /* CatKeyKeyboard.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6A62DC8A2FD6401700767DC8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2640;
+				LastUpgradeCheck = 2640;
+				TargetAttributes = {
+					6A62DC912FD6401700767DC8 = {
+						CreatedOnToolsVersion = 26.4.1;
+					};
+					6A62DC9E2FD6401900767DC8 = {
+						CreatedOnToolsVersion = 26.4.1;
+						TestTargetID = 6A62DC912FD6401700767DC8;
+					};
+					6A62DCA82FD6401900767DC8 = {
+						CreatedOnToolsVersion = 26.4.1;
+						TestTargetID = 6A62DC912FD6401700767DC8;
+					};
+					KB0000000000000000000006 = {
+						CreatedOnToolsVersion = 26.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 6A62DC8D2FD6401700767DC8 /* Build configuration list for PBXProject "CatKey" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6A62DC892FD6401700767DC8;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 6A62DC932FD6401700767DC8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6A62DC912FD6401700767DC8 /* CatKey */,
+				KB0000000000000000000006 /* CatKeyKeyboard */,
+				6A62DC9E2FD6401900767DC8 /* CatKeyTests */,
+				6A62DCA82FD6401900767DC8 /* CatKeyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6A62DC902FD6401700767DC8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A62DC9D2FD6401900767DC8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A62DCA72FD6401900767DC8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		KB0000000000000000000009 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6A62DC8E2FD6401700767DC8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A62DC9B2FD6401900767DC8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A62DCA52FD6401900767DC8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		KB0000000000000000000008 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6A62DCA12FD6401900767DC8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6A62DC912FD6401700767DC8 /* CatKey */;
+			targetProxy = 6A62DCA02FD6401900767DC8 /* PBXContainerItemProxy */;
+		};
+		6A62DCAB2FD6401900767DC8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6A62DC912FD6401700767DC8 /* CatKey */;
+			targetProxy = 6A62DCAA2FD6401900767DC8 /* PBXContainerItemProxy */;
+		};
+		KB0000000000000000000005 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = KB0000000000000000000006 /* CatKeyKeyboard */;
+			targetProxy = KB0000000000000000000001 /* PBXContainerItemProxy */;
+		};
+		KB000000000000000000000A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6A62DC912FD6401700767DC8 /* CatKey */;
+			targetProxy = KB000000000000000000000B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXContainerItemProxy section */
+		KB000000000000000000000B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6A62DC8A2FD6401700767DC8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6A62DC912FD6401700767DC8;
+			remoteInfo = CatKey;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin XCBuildConfiguration section */
+		6A62DCB12FD6401900767DC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = JP4TN5PTS3;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6A62DCB22FD6401900767DC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = JP4TN5PTS3;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6A62DCB42FD6401900767DC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JP4TN5PTS3;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zzoutuo.CatKey;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6A62DCB52FD6401900767DC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JP4TN5PTS3;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zzoutuo.CatKey;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6A62DCB72FD6401900767DC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JP4TN5PTS3;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zzoutuo.CatKey.CatKeyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CatKey.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CatKey";
+			};
+			name = Debug;
+		};
+		6A62DCB82FD6401900767DC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JP4TN5PTS3;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zzoutuo.CatKey.CatKeyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CatKey.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CatKey";
+			};
+			name = Release;
+		};
+		6A62DCBA2FD6401900767DC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JP4TN5PTS3;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zzoutuo.CatKey.CatKeyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CatKey;
+			};
+			name = Debug;
+		};
+		6A62DCBB2FD6401900767DC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JP4TN5PTS3;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zzoutuo.CatKey.CatKeyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CatKey;
+			};
+			name = Release;
+		};
+		KB000000000000000000000C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JP4TN5PTS3;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = CatKeyKeyboard/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_SWIFT_FLAGS = "-parse-as-library";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zzoutuo.CatKey.Keyboard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		KB000000000000000000000D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JP4TN5PTS3;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = CatKeyKeyboard/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_SWIFT_FLAGS = "-parse-as-library";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zzoutuo.CatKey.Keyboard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6A62DC8D2FD6401700767DC8 /* Build configuration list for PBXProject "CatKey" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A62DCB12FD6401900767DC8 /* Debug */,
+				6A62DCB22FD6401900767DC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6A62DCB32FD6401900767DC8 /* Build configuration list for PBXNativeTarget "CatKey" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A62DCB42FD6401900767DC8 /* Debug */,
+				6A62DCB52FD6401900767DC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6A62DCB62FD6401900767DC8 /* Build configuration list for PBXNativeTarget "CatKeyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A62DCB72FD6401900767DC8 /* Debug */,
+				6A62DCB82FD6401900767DC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6A62DCB92FD6401900767DC8 /* Build configuration list for PBXNativeTarget "CatKeyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A62DCBA2FD6401900767DC8 /* Debug */,
+				6A62DCBB2FD6401900767DC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		KB0000000000000000000007 /* Build configuration list for PBXNativeTarget "CatKeyKeyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				KB000000000000000000000C /* Debug */,
+				KB000000000000000000000D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6A62DC8A2FD6401700767DC8 /* Project object */;
+}
